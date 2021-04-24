@@ -23,3 +23,8 @@ def main_index():
     pager_wrap_len = len(pager_wrap)
     print(house_list_len, pager_wrap[pager_wrap_len - 2])
     return render_template('main/index.html', title="租房推荐系统")
+
+
+@web_main.route('/main/info')
+def main_info():
+    return render_template('main/info.html', title="租房推荐系统")
