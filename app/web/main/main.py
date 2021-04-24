@@ -22,4 +22,4 @@ def main_index():
     house_list_len = len(house_list)
     pager_wrap_len = len(pager_wrap)
     print(house_list_len, pager_wrap[pager_wrap_len - 2])
-    return render_template('main/index.html')
+    return render_template('main/index.html', title="租房推荐系统")

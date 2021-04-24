@@ -2,6 +2,6 @@
 # -*- coding: UTF-8 -*-
 
 DEBUG = True
-PORT = 8000
+PORT = 3500
 PAGE = 1
 LIMIT = 10
