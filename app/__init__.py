@@ -30,5 +30,7 @@ def register_blueprint(app):
     # Api register
     from app.api.user import api_user
     from app.api.comm import api_comm
+    from app.api.spider import api_spider
     app.register_blueprint(api_user)
     app.register_blueprint(api_comm)
+    app.register_blueprint(api_spider)
